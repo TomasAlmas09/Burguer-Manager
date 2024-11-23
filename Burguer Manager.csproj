@@ -57,9 +57,51 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NovaPasta\**" />
+	  <AndroidResource Remove="Resources\NovaPasta1\**" />
+	  <AndroidResource Remove="Resources\NovaPasta\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <Compile Remove="Resources\NovaPasta1\**" />
+	  <Compile Remove="Resources\NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="Resources\NovaPasta1\**" />
+	  <EmbeddedResource Remove="Resources\NovaPasta\**" />
+	  <MauiCss Remove="NovaPasta\**" />
+	  <MauiCss Remove="Resources\NovaPasta1\**" />
+	  <MauiCss Remove="Resources\NovaPasta\**" />
+	  <MauiXaml Remove="NovaPasta\**" />
+	  <MauiXaml Remove="Resources\NovaPasta1\**" />
+	  <MauiXaml Remove="Resources\NovaPasta\**" />
+	  <None Remove="NovaPasta\**" />
+	  <None Remove="Resources\NovaPasta1\**" />
+	  <None Remove="Resources\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove=".editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="D:\PDM\Burguer Manager\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="D:\PDM\Burguer Manager\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AppShell.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

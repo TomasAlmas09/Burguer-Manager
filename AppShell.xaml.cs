@@ -1,4 +1,4 @@
-﻿namespace Burguer_Manager
+namespace Burguer_Manager
 {
     public partial class AppShell : Shell
     {

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Burguer_Manager.HomePage"
+             BackgroundColor="#ffd360">
+
+    <VerticalStackLayout Padding="40" Spacing="30" VerticalOptions="Center">
+
+        <!-- Logotipo -->
+        <Image 
+            Source="burguer_logo_png.png"
+            HeightRequest="250"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+           />
+
+            <!-- Título -->
+            <Label 
+            Text="Bem-vindo ao Burguer Manager!"
+            FontSize="30"
+            HorizontalOptions="Center"
+            TextColor="#155263" />
+
+
+            <Entry
+         Placeholder="Número de funcionário"
+         Keyboard="Numeric"
+         PlaceholderColor="#155263"
+         TextColor="#155263"
+         BackgroundColor="Transparent"
+         HeightRequest="50"
+         HorizontalOptions="FillAndExpand"/>        
+
+        <Entry
+        Placeholder="Código PIN"
+        Keyboard="Numeric"
+        PlaceholderColor="#155263"
+        TextColor="#155263"
+        BackgroundColor="Transparent"
+        HeightRequest="50"
+        HorizontalOptions="FillAndExpand"/>
+
+        <!-- Botão -->
+            <Button 
+            Text="Entrar"
+            BackgroundColor="#155263"
+            TextColor="#ffd360"
+            HeightRequest="50"
+            FontAttributes="Bold"
+            CornerRadius="10"
+             />
+
+    </VerticalStackLayout>
+</ContentPage>

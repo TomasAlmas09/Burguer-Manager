@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="Burguer_Manager.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Burguer_Manager"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Burguer_Manager">
+﻿<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="Burguer_Manager.AppShell"
+       xmlns:pages="clr-namespace:Burguer_Manager">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!-- Defina HomePage como a página inicial -->
+    <ShellContent Title="Login">
+        <pages:HomePage />
+    </ShellContent>
 
 </Shell>
