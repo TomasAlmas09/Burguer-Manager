@@ -1,7 +1,6 @@
 ﻿using Android.OS;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
-using Android.App;
 
 namespace Burguer_Manager
 {
