@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Burguer_Manager.Pages.AddReservasPage"
+             Title="Adicionar Reserva"
+             BackgroundColor="#ffd360">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <!-- Logo da Hamburgueria -->
+        <Image 
+            Source="burguer_logo_png.png"
+            HeightRequest="150"
+            Aspect="AspectFit"
+            HorizontalOptions="Center" />
+
+        <!-- Título -->
+        <Label 
+            Text="Adicionar Reserva"
+            FontSize="24"
+            HorizontalOptions="Center"
+            TextColor="#155263" />
+
+        <!-- Campo para o nome do cliente -->
+        <Entry 
+            x:Name="ClienteEntry"
+            Placeholder="Nome do Cliente"
+            TextColor="#155263"
+            PlaceholderColor="#155263"
+            BackgroundColor="Transparent"
+            HeightRequest="50"
+            HorizontalOptions="FillAndExpand"
+            Margin="0,0,0,10" />
+
+        <!-- Campo para escolher a data da reserva -->
+        <DatePicker 
+            x:Name="DataReservaPicker"
+            Date="{Binding ReservaData}"
+            HorizontalOptions="FillAndExpand"
+            Margin="0,0,0,10" />
+
+        <!-- Campo para escolher a hora da reserva -->
+        <TimePicker 
+            x:Name="HorarioReservaPicker"
+            Time="{Binding ReservaHora}"
+            HorizontalOptions="FillAndExpand"
+            Margin="0,0,0,10" />
+
+        <!-- Campo para o número de pessoas -->
+        <Entry 
+            x:Name="NumeroPessoasEntry"
+            Placeholder="Número de Pessoas"
+            TextColor="#155263"
+            PlaceholderColor="#155263"
+            BackgroundColor="Transparent"
+            HeightRequest="50"
+            HorizontalOptions="FillAndExpand"
+            Margin="0,0,0,10"
+            Keyboard="Numeric" />
+
+        <!-- Botão para salvar a reserva -->
+        <Button 
+            Text="Adicionar Reserva"
+            BackgroundColor="#155263"
+            TextColor="#ffd360"
+            HeightRequest="50"
+            FontAttributes="Bold"
+            CornerRadius="10"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

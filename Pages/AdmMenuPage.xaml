@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Burguer_Manager.Pages.AdmMenuPage"
+             Title="Admin Menu"
+             BackgroundColor="#ffd360">
+    
+
+    <VerticalStackLayout Padding="40" Spacing="30" VerticalOptions="Center">
+
+        <!-- Logotipo -->
+        <Image 
+            Source="burguer_logo_png.png"
+            HeightRequest="250"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            />
+
+        <!-- Botão para Reservas -->
+        <Button 
+            Text="Reservas"
+            BackgroundColor="#155263"
+            TextColor="#ffd360"
+            HeightRequest="50"
+            FontAttributes="Bold"
+            CornerRadius="10"
+            Clicked="OnReservasButtonClicked"
+            />
+
+        <!-- Botão para Adicionar Reservas -->
+        <Button 
+            Text="Adicionar Reserva"
+            BackgroundColor="#155263"
+            TextColor="#ffd360"
+            HeightRequest="50"
+            FontAttributes="Bold"
+            CornerRadius="10"
+            Clicked="OnAddReservasButtonClicked"
+            />
+
+            <!-- Botão para Adicionar Funcionários -->
+         <Button 
+            Text="Adicionar Funcionário"
+            BackgroundColor="#155263"
+            TextColor="#ffd360"
+            HeightRequest="50"
+            FontAttributes="Bold"
+            CornerRadius="10"
+            Clicked="OnAddFuncButtonClicked"
+            />
+
+        </VerticalStackLayout>
+
+</ContentPage>

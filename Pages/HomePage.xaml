@@ -48,6 +48,7 @@
             HeightRequest="50"
             FontAttributes="Bold"
             CornerRadius="10"
+            Clicked="OnLoginButtonClicked"
              />
 
     </VerticalStackLayout>

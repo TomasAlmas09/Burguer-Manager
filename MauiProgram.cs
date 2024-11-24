@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Firebase.Auth;
+using Firebase.Auth.Providers;
+using Microsoft.Extensions.Logging;
 
 namespace Burguer_Manager
 {

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Burguer_Manager.Pages.ReservasPage"
+             Title="Reservas"
+             BackgroundColor="#ffd360">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Start">
+
+            <!-- Título -->
+            <Label 
+                Text="Consultas de Reservas"
+                FontSize="30"
+                HorizontalOptions="Center"
+                TextColor="#155263" />
+
+            <!-- Lista de Reservas -->
+            <CollectionView ItemsSource="{Binding Reservas}" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="#155263" Padding="10" Margin="5" BackgroundColor="White" CornerRadius="10">
+                            <VerticalStackLayout Spacing="10">
+                                <!-- Nome do Cliente -->
+                                <Label Text="{Binding Cliente}" 
+                                       FontAttributes="Bold" 
+                                       FontSize="20" 
+                                       TextColor="#155263" />
+
+                                <!-- Horário da Reserva -->
+                                <Label Text="{Binding HorarioReserva}" 
+                                       FontSize="16" 
+                                       TextColor="#155263" />
+
+                                <!-- Número de Pessoas -->
+                                <Label Text="Número de Pessoas: {Binding NumeroPessoas}" 
+                                       FontSize="16" 
+                                       TextColor="#155263" />
+
+                                <!-- Status da Reserva -->
+                                <Label Text="Status: {Binding Status}" 
+                                       FontSize="16" 
+                                       TextColor="#FF5733" />
+
+                                <!-- Picker para alterar o status -->
+                                <Picker SelectedItem="{Binding Status}" 
+                                    ItemsSource="{Binding StatusOptions}" 
+                                    
+                                    Title="Alterar Status"
+                                    Margin="5"/>
+
+
+                                <!-- Botão de salvar alterações -->
+                                <Button 
+                                    Text="Salvar Alterações"
+                                    BackgroundColor="#155263"
+                                    TextColor="#ffd360"
+                                    HeightRequest="40"
+                                    FontAttributes="Bold"
+                                    CornerRadius="5"
+                                    
+                                    Margin="5"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

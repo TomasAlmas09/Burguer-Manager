@@ -3,6 +3,7 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
 build_property.TargetFramework = net8.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -12,35 +13,79 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Burguer_Manager
-build_property.ProjectDir = D:\PDM\Burguer Manager\
+build_property.ProjectDir = D:\Burguer-Manager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[D:/PDM/Burguer Manager/App.xaml]
+[D:/Burguer-Manager/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/PDM/Burguer Manager/AppShell.xaml]
+[D:/Burguer-Manager/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/PDM/Burguer Manager/Pages/HomePage.xaml]
+[D:/Burguer-Manager/Pages/AddFuncPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.AddFuncPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddFuncPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddFuncPage.xaml
+
+[D:/Burguer-Manager/Pages/AddReservasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.AddReservasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddReservasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddReservasPage.xaml
+
+[D:/Burguer-Manager/Pages/AdmMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.AdmMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AdmMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AdmMenuPage.xaml
+
+[D:/Burguer-Manager/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
 
-[D:/PDM/Burguer Manager/Resources/Styles/Colors.xaml]
+[D:/Burguer-Manager/Pages/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage.xaml
+
+[D:/Burguer-Manager/Pages/ReservasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.ReservasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ReservasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ReservasPage.xaml
+
+[D:/Burguer-Manager/Pages/UserMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.UserMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\UserMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\UserMenuPage.xaml
+
+[D:/Burguer-Manager/Pages/UserReserva.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Pages.UserReserva.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\UserReserva.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\UserReserva.xaml
+
+[D:/Burguer-Manager/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/PDM/Burguer Manager/Resources/Styles/Styles.xaml]
+[D:/Burguer-Manager/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Burguer_Manager.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PDM\\Burguer Manager\\",
+  "WorkspaceRootPath": "D:\\Burguer-Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\pdm\\burguer manager\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\burguer-manager\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\pdm\\burguer manager\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\burguer-manager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\burguer-manager\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\pdm\\burguer manager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\burguer-manager\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|d:\\burguer-manager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE549F1-C34D-43EF-97E2-4B167D85C55F}|Burguer Manager.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -25,40 +33,70 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Burguer-Manager\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Burguer-Manager\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:17:44.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Burguer-Manager\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Burguer-Manager\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:06:40.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "D:\\PDM\\Burguer Manager\\AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Burguer-Manager\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "D:\\PDM\\Burguer Manager\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Burguer-Manager\\AppShell.xaml.cs",
               "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T17:25:47.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\PDM\\Burguer Manager\\AppShell.xaml",
+              "DocumentMoniker": "D:\\Burguer-Manager\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "D:\\PDM\\Burguer Manager\\AppShell.xaml",
+              "ToolTip": "D:\\Burguer-Manager\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-23T17:25:39.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\PDM\\Burguer Manager\\Pages\\HomePage.xaml",
+              "DocumentMoniker": "D:\\Burguer-Manager\\Pages\\HomePage.xaml",
               "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
-              "ToolTip": "D:\\PDM\\Burguer Manager\\Pages\\HomePage.xaml",
+              "ToolTip": "D:\\Burguer-Manager\\Pages\\HomePage.xaml",
               "RelativeToolTip": "Pages\\HomePage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-23T17:17:42.966Z",
               "EditorCaption": ""

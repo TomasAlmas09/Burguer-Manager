@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Burguer Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7cc82770bedaf822e893dfe2c8bd9f31730c181b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5d08f0e7aeaddbc70188132940a3f50a2e8914c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Burguer Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Burguer Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.5")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

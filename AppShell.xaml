@@ -3,7 +3,6 @@
        x:Class="Burguer_Manager.AppShell"
        xmlns:pages="clr-namespace:Burguer_Manager">
 
-    <!-- Defina HomePage como a página inicial -->
     <ShellContent Title="Login">
         <pages:HomePage />
     </ShellContent>
